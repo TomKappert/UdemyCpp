@@ -7,7 +7,7 @@
 // 4: const auto& val : vec => const int& val : vec
 int main()
 {
-    auto vec = std::vector<int>{1, 2, 3, 4, 5};
+    auto vec = std::vector<int>{9, 2, 3, 4, 5};
 
     for (auto val : vec)
     {
